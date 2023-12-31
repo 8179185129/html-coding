@@ -1,30 +1,111 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>collage rigistrastion from</title>
-    
-</head>
-<body>
- <h1>collage rigistrastion from</h1><br>
-<table>
-first name* <input type="name">
- <br><br>
- last name* <input type="text" placeholder="last name"><br><br>
- date of birth* <input type="text">
- <br><br>
- email* <input type="text">
- <br><br>
- father name* <input type="text">
- <br><br>
- mother name* <input type="text">
- <br><br>
- gender* <input type="radio">male
-  <input type="radio">female
-  <input type="submit">
-  </table>
  
+      <!DOCTYPE html>
+      <html lang="en">
+      <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>calculator</title>
+        <style>
+          h1{
+            text-align: center; 
+            color: rgb(55, 226, 43);
+            background-color: rgb(228, 19, 222);
+            border: 5px solid rgb(56, 12, 151);
+            height: 50pxx;
+            border-radius: 36px; 
+            font-style: italic;
+            
+          }
+          table{
+            border: 3px solid rgb(35, 8, 155);
+           margin-left: auto;
+           margin-right: auto;
+           marker-mid: none;
+          }
+          input[type="button"]
+          {
+            width: auto;
+            height: auto ;
+            padding: 10px 20px;
+            font-size: small;
+            font-style: italic;
+            background-color: aqua;
+            border: 2px rgb(0, 234, 255);
+            box-sizing: border-box ;
+            border-radius: 5px;
+            color: blueviolet;
+            font-weight: bold;
+             }
+             input[type="text"]{
+              padding: 20px 30px;
+              font-size: 10px;
+              font-weight: 100;
+              border-radius: 5px;
+              border: none;
+              border:2px solid rgb(132, 188, 237) ;
 
-</body>
-</html>
+             }
+             tr{
+              background-color: black;
+              
+             }
+             td{
+              border-radius: 4px;
+              border: 2px solid rainbow;
+             }
+             
+
+          
+        </style>
+      </head>
+      <body>
+        <h1>simple calculator</h1>
+
+        <table id="calculator">
+          <tr>
+            <td colspan="100">
+              <input type="text" id="result">
+           </td>
+           <td><input type="button" value="c"></td>
+           </tr>
+           
+             <tr>
+            <td>
+              <input type="button" value="7">
+              <input type="button" value="8">
+              <input type="button" value="9">
+              <input type="button" value="/">
+            </td>
+           </tr>
+           <tr>
+            <td>
+              <input type="button" value="4">
+              <input type="button" value="5">
+              <input type="button" value="6">
+              <input type="button" value="*">
+            </td>
+           </tr>
+           <tr>
+            <td>
+             
+              <input type="button" value="1">
+              <input type="button" value="2">
+              <input type="button" value="3">
+              <input type="button" value="-">
+            </td>
+           </tr>
+           <tr>
+            <td>
+              <input type="button" value="0">
+              <input type="button" value=".">
+              <input type="button" value="=">
+              <input type="button" value="+">
+            </td>
+           </tr>
+          
+           
+        
+             
+      </table>
+      </body>
+      </html>
